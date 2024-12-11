@@ -9,8 +9,13 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    
+    display: flex;
+    flex-direction: column;
 }
-.main-page-register{
-    padding: 20px;
+
+.main-container{
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 80%;
+    box-shadow: 0 4px 8px
 }

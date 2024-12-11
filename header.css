@@ -22,15 +22,16 @@ nav .menu{
 }
 
 .logo img{
-    margin-left: 100px;
+    
     width: 40px;
 }
 
 .login .login-btn{
     background-color: #ff4500;
-    margin-right: 100px;
+   
     color: #f9f9f9;
-    height: 40px;
+    height: 45px;
+    width: 90px;
     border: none;
     border-radius: 5px;
 }
@@ -38,6 +39,6 @@ nav .menu{
 header{
     background-color: #333;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
