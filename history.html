@@ -3,22 +3,11 @@
     <head>
         <meta charset="utf-8">
         <title> Servicios </title>
-        <link rel="stylesheet" href="history.styles.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="styles-history.css">
     </head>
     <body>
-        <header>
-            <div>
-                <img src="images/logo.png" width="100" height="100" alt="Logo de martillo">
-            </div>
-            <div>
-                <button> Explorar </button>
-                <button> Agregar servicio </button>
-                <button> Historial </button>
-            </div>
-            <div>
-                <button> 👤 Acceder </button>
-            </div>
-        </header>
+        <header></header>
         <main>
             <h1> Servicios utilizados</h1>
             <section>
@@ -40,5 +29,14 @@
                 </div>
             </section>
         </main>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                fetch('header.html')
+                    .then(response => response.text())
+                    .then(data => {
+                        document.querySelector("header").innerHTML = data;
+                    });
+            });
+        </script>
     </body>
 </html>
