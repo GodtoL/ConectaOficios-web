@@ -3,25 +3,33 @@
     <head>
         <meta charset="utf-8">
         <title> Servicios </title>
+        <link rel="stylesheet" href="styles-main.css">
     </head>
     <body>
         <header>
-            <div>
-                <img src="images/logo.png" width="100" height="100" alt="Logo de martillo">
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo de martillo">
             </div>
-            <div>
-                <button> Explorar </button>
-                <button> Agregar servicio </button>
-                <button> Historial </button>
-            </div>
-            <div>
-                <button> 👤 Acceder </button>
+            <nav>
+                <ul class="menu">
+                    <li><button class="user-btn">Explorar</button></li>
+                    <li><button class="user-btn">Agregar servicio</button></li>
+                    <li><button class="user-btn">Historial</button></li>
+                </ul>
+            </nav>
+            <div class="login">
+                <button class="login-btn"> 👤 Acceder </button>
             </div>
         </header>
         <main>
-            <h1> Todos los <strong> Expertos </strong> en un solo lugar</h1>
-            <p> Cientos de usuarios han probado y recomendado </p>
-            <input type="text" placeholder="Buscar servicio...">
+            <section class="main-page">
+                <h1> Todos los <strong> Expertos </strong> en un solo lugar</h1>
+                <p> Cientos de usuarios han probado y recomendado </p>
+                <div class="search-box">
+                    <input type="text" placeholder="Buscar servicio...">
+                    <button class="search-btn">🔍</button>
+                </div>
+            </section>
         </main>
     </body>
 
