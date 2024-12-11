@@ -66,14 +66,15 @@ header{
 .search-box {
     display: flex;
     justify-content: center;
-    gap: 10px
+    gap: 10px;
 }
 .search-box input {
     width: 70%;
     height: 35px;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: 1px solid #ff4500;
     border-radius: 5px;
+    box-shadow: #ff4500;
 }
 
 .search-btn{
