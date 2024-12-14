@@ -5,37 +5,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
-}
-  
-nav .menu{
-    align-items: center;
-    list-style: none;
-    gap: 15px;
-    display: flex;
+
+    overflow-y: scroll;
 }
 
-.user-btn{
-    color: white;
-    background-color: transparent;
-    padding: 10px 20px;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-}
 
-.logo img{
-    margin-left: 100px;
-    width: 40px;
-}
-
-.login .login-btn{
-    background-color: #ff4500;
-    margin-right: 100px;
-    color: #f9f9f9;
-    height: 40px;
-    border: none;
-    border-radius: 5px;
-}
 .main-section{
     align-items: center;
     text-align: center;
@@ -92,6 +66,11 @@ nav .menu{
     border: none;
     border-radius: 5px;
     margin-bottom: 20px;
+    transition: #ff4500 0.3s;
+}
+
+.search-btn:hover{
+    background-color: #e03e00;
 }
 
 main{
