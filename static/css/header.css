@@ -17,6 +17,7 @@ nav .menu{
     border: none;
     font-size: 16px;
     cursor: pointer;
+    text-decoration: none; 
 }
 
 .logo img{  
