@@ -9,7 +9,7 @@
 ## 🌟 Tecnologías Utilizadas
 - HTML5
 - CSS3
-- GitHub Pages (para el despliegue)
+- GitHub Pages (para el despliegue) https://godtol.github.io/ConectaOficios-web/
   
 ## 🚀 Despliegue en GitHub Pages
 El proyecto está en línea y puedes accederlo en el siguiente enlace:
